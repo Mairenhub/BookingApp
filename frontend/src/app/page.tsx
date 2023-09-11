@@ -12,14 +12,9 @@ const Home: React.FC = () => {
 
   return (
     <main>
-
-
-
-
-
-      
-      <MyCalendar events={events}/>
-      
+      <div className="calendar_container">
+        <MyCalendar events={events}/>
+      </div>
     </main>
   )
 }

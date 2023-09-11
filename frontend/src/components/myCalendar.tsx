@@ -6,6 +6,8 @@ import { myEvent } from "@/utils/Calendar.models";
 
 const localizer = momentLocalizer(moment)
 
+
+
 const MyCalendar: React.FC<{ events: myEvent[] }> = ({ events }) => (
     <div>
       <Calendar
