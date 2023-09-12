@@ -6,9 +6,9 @@ export interface myEvent extends Event {
 
 
 export interface Hygienist {
+    id: number;
     price: number;
-    description: string;
-    qualification: string;
     name: string;
-
+    qualification: string;
+    description: string;
 }
