@@ -1,9 +1,9 @@
 from rest_framework import serializers
-from .models import Component, Booking
+from .models import Hygienist, Booking
 
-class ComponentSerializer(serializers.ModelSerializer):
+class HygienistSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Component
+        model = Hygienist
         fields = '__all__'
 
 class BookingSerializer(serializers.ModelSerializer):

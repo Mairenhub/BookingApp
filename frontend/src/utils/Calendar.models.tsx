@@ -3,3 +3,12 @@ export interface myEvent extends Event {
     start: Date;
     end: Date;
 }
+
+
+export interface Hygienist {
+    price: number;
+    description: string;
+    qualification: string;
+    name: string;
+
+}

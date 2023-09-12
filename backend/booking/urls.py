@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import ComponentView, BookingView
+from .views import HygienistView, BookingView
 
 urlpatterns = [
-    path('component/', ComponentView.as_view(), name='component-list-view'),
+    path('hygienist/', HygienistView.as_view(), name='hygienist-list-view'),
     path('booking/', BookingView.as_view(), name='booking-list-view'),
 ]

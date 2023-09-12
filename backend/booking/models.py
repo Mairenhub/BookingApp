@@ -1,6 +1,6 @@
 from django.db import models
 
-class Component(models.Model):
+class Hygienist(models.Model):
     price = models.FloatField(blank=True, default=0)
     name = models.CharField(blank=True, max_length=100)
     qualification = models.CharField(blank=True, max_length=100)
