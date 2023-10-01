@@ -12,3 +12,18 @@ export interface Hygienist {
     qualification: string;
     description: string;
 }
+
+export interface HygienistCardProps {
+    hygienist: Hygienist;
+}
+
+export interface CustomButtonProps {
+    title: string;
+    handleClick: () => void;
+}
+
+export interface BookingModalProps {
+    isOpen: boolean;
+    closeModal: () => void;
+    hygienist: Hygienist;
+}
